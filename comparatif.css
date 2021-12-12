@@ -155,6 +155,11 @@ li{
   width: 100%;
 
 }
+.ancre{
+  top: -50px;
+  position: relative;
+  visibility:hidden;
+}
 /*.entreprises{
   background-color:RGBa(150,150,150,0.5);
   border-radius: 15px;
@@ -173,5 +178,18 @@ li{
 #pagemilieu {
   border-left: 2px solid white;
   border-right: 2px solid white;
+
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+
+
+
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
 
 }

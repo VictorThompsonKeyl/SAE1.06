@@ -126,17 +126,17 @@ nav a{
 	border-left: 2px solid white ;
 	border-right: 2px solid white ;
 }
-#decouverte{
+.decouverte{
 	color: white;
 	font-size: 20px;
 }
 
-#decouverte:after{
+.decouverte:after{
 	content:"▼";
     font-size: 18px;
 
 }
-#decouverte:before{
+.decouverte:before{
 	content:"▼";
     font-size: 18px;
 
