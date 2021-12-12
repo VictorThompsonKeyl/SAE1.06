@@ -1,0 +1,163 @@
+body{
+  padding: 0px;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  
+}
+
+body:before {
+        content: "";
+        position: fixed;
+        height: 100%; 
+        width: 100%;
+        background-image:url(ocean.jpg);
+        background-size: cover;
+        z-index: -1;     
+        filter: blur(5px);
+    
+    }
+
+body img {
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+}
+
+nav{
+    
+    width: 100%;
+    margin: 0 auto;
+    background-image:url(ocean.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 16.6%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: RGBa(180,180,180);
+    /*background-image:url(ocean.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+
+ 
+}
+nav > ul li:hover .sous{
+    display: block;
+
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+    color: white;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.5);
+    color: white;
+
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.contenu{
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color:RGBa(200,200,200,0.5);
+}
+
+
+.contenu img{
+  width: 100%;
+}
+.contenu p{
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}
+
+.titres{
+  border-top: 2px solid black;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+.soustitres{
+  text-align: center;
+
+}
+.tableau{
+  text-align: center;
+  padding-left: 25%;
+
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+
+
+
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+
+}
+ul {
+  color: black;
+}

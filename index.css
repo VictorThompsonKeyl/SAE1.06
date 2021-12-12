@@ -1,0 +1,143 @@
+body{
+	height: 100vh;
+	margin: 0 auto;
+	background-image:url(ocean.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Montserrat, sans-serif;
+	
+	
+}
+
+
+#logo{
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 20%;
+	height: 100px; 
+	width: 100px;
+
+}
+#titre {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 120px;
+	font-family: 'Shadows Into Light', cursive;
+	color: black;
+	margin: 0;
+}
+#soustitre {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	color: black;
+	margin: 0;
+	border-bottom: 5px solid black ;
+	border-radius: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+nav{
+	padding-top: 10px ;
+	width: 100%;
+    margin: 0 auto;
+    top: 0px;
+ 
+}
+nav ul{
+    list-style-type: none;
+
+}
+
+nav li{
+    float: left;
+    width: 33%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+
+}
+nav a{
+	
+	font-family: Source Sans Pro;
+	font-size: 25px;
+	color: white;
+	margin-right: 15px;
+	display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+
+}
+.comparatif{
+	font-size: 30px;
+	color: white;
+	margin-top: 10%;
+	background-color:RGBa(150,150,150,0.5);
+	border-radius: 15px;
+}
+.comparatif:hover{
+	color: black;
+
+
+
+}
+.entreprise2:hover, .entreprise1:hover{
+	font-size: 30px;
+	border-bottom: 2px solid black;
+	transition: 0.1s;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.conteneur{
+
+	float:left; 
+	width: 100%;
+
+
+
+}
+.conteneur:before, .conteneur:after {
+    content:"";
+    display:table;
+    clear: both;
+}
+.conteneur div{
+
+      float:left; 
+      width:33%; 
+      height:160px; 
+      text-align: center;
+}
+.conteneur img{
+	height: 250px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.conteneur img:hover{
+	height: 280px;
+	width: 280px;
+	transition: 0.2s;
+	}
+#intro{
+	margin-top: 5%;
+	border-left: 2px solid white ;
+	border-right: 2px solid white ;
+}
+#decouverte{
+	color: white;
+	font-size: 20px;
+}
+
+#decouverte:after{
+	content:"▼";
+    font-size: 18px;
+
+}
+#decouverte:before{
+	content:"▼";
+    font-size: 18px;
+
+}
